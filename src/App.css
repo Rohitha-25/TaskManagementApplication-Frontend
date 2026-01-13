@@ -1,0 +1,87 @@
+body {
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  background: rgb(156, 188, 200);
+  color: black;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+form input, form select {
+  width: 70%;
+  padding: 8px;
+  margin: 8px 0;
+  background-color: rgb(209, 223, 228);
+  color: #000;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+option {
+  background-color: rgb(181, 214, 227);
+  color: black;
+}
+
+form button {
+  padding: 8px 20px;
+  background-color: silver;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+form button:hover {
+  border: white;
+}
+
+ul {
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: rgb(139, 166, 177);
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+li strong {
+  color: black;
+}
+
+li button {
+  margin-left: 12px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+li button:first-of-type {
+  background-color: #ffc107;
+  color: black;
+}
+
+li button:first-of-type:hover {
+  background-color: #e0a800;
+}
+
+li button:last-of-type {
+  background-color: rgb(194, 17, 17);
+  color: white;
+}
+
+li button:last-of-type:hover {
+  background-color: #b02a37;
+}
