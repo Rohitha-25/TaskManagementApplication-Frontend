@@ -1,4 +1,4 @@
-# 🚀 2. Task Management Application (Frontend)
+# 📝 Task Management Application (Frontend)
 
 ## Overview
 A responsive React-based frontend application that allows users to manage daily tasks efficiently with an intuitive UI and seamless API integration.
